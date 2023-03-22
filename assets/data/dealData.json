@@ -1,0 +1,76 @@
+{
+    "items":[
+        {
+            "id":"03",
+            "sort":6,
+            "snippets":{
+                "thumbnail":"./assets/images/deal1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":156750,
+                    "og":165000
+                },
+                "option":{
+                    "depart":true,
+                    "pickup":true
+                },
+                "freedelivery":true
+            }
+        },
+        {
+            "id":"03",
+            "sort":6,
+            "snippets":{
+                "thumbnail":"./assets/images/deal2.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":74000,
+                    "og":85000
+                },
+                "option":{
+                    "depart":false,
+                    "pickup":true
+                },
+                "freedelivery":true
+            }
+        },
+        {
+            "id":"03",
+            "sort":6,
+            "snippets":{
+                "thumbnail":"./assets/images/deal3.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":55000,
+                    "og":106000
+                },
+                "option":{
+                    "depart":true,
+                    "pickup":false
+                },
+                "freedelivery":true
+            }
+        },
+        {
+            "id":"03",
+            "sort":6,
+            "snippets":{
+                "thumbnail":"./assets/images/deal4.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":29000,
+                    "og":31000
+                },
+                "option":{
+                    "depart":false,
+                    "pickup":false
+                },
+                "freedelivery":true
+            }
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "items":[
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide1.jpg",
+            "title":"LG 오브제컬렉션",
+            "desc":"단 일주일간 특별 할인으로 모십니다."
+           }
+        },
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide2.jpg",
+            "title":"캐주얼룩의 완성 <br>명품 단독 특가전",
+            "desc":"갤러리아우리카드최대 100만원 증정"
+           }
+        },
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide3.jpg",
+            "title":"불리가 상상해온 <br>봄의 향기",
+            "desc":"구매 샘플 증정+향수 상품권 행사"
+           }
+        },
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide4.jpg",
+            "title":"3월의 <br>Best item",
+            "desc":"캐주얼 인기 아이템 추천"
+           }
+        },
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide5.jpg",
+            "title":"봄맞이 새단장",
+            "desc":"단 일주일간 특별 할인으로 모십니다."
+           }
+        },
+        {
+            "id":"01",
+           "snippet":{
+            "thumbnail":"./assets/images/slide6.jpg",
+            "title":"LG 오브제컬렉션",
+            "desc":"단 일주일간 특별 할인으로 모십니다."
+           }
+        }
+    ]
+}

@@ -1,0 +1,553 @@
+{
+    "items":[
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"입생로랑",
+                "title":"따뚜아쥬 꾸뛰르 벨벳틴트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":1,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"입생로랑",
+                "title":"따뚜아쥬 꾸뛰르 벨벳틴트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"입생로랑",
+                "title":"따뚜아쥬 꾸뛰르 벨벳틴트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":2,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/wish2.jpg",
+                "brand":"샤넬",
+                "title":"NEW 샤넬향수",
+                "price":{
+                    "curr":55300
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/wish1.jpg",
+                "brand":"입생로랑",
+                "title":"따뚜아쥬 꾸뛰르 벨벳틴트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":3,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/wish3.jpg",
+                "brand":"컨버스",
+                "title":"컨버스 척테일러",
+                "price":{
+                    "curr":89000
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/wish4.jpg",
+                "brand":"설화수",
+                "title":"설화수 스킨케어 세트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":4,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/wish6.jpg",
+                "brand":"컨버스",
+                "title":"컨버스 척테일러",
+                "price":{
+                    "curr":89000
+                }
+            }
+        },
+
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/wish1.jpg",
+                "brand":"설화수",
+                "title":"설화수 스킨케어 세트",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/wish4.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":37500
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-2.jpg",
+                "brand":"생명물 간장",
+                "title":"생명물 간장할인",
+                "price":{
+                    "curr":67000
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-3.jpg",
+                "brand":"이솝",
+                "title":"이솝 핸드워시",
+                "price":{
+                    "curr":15900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-4.jpg",
+                "brand":"티셔츠",
+                "title":"3팩 티셔츠",
+                "price":{
+                    "curr":9900
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm-1.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        },
+        {
+            "id":"02",
+            "sort":5,
+            "snippets":{
+                "thumbnail":"./assets/images/recomm.jpg",
+                "brand":"디올",
+                "title":"NEW 립 글로우",
+                "price":{
+                    "curr":24100
+                }
+            }
+        }
+        
+        
+    ]
+}

@@ -1,0 +1,1762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리아</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />   
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <h1 class="logo"><a href=""><span class="blind">갤러리아</span></a></h1>
+                <form action="" class="search-area">
+                    <fieldset>
+                        <legend class="blind">검색</legend>
+                            <div class="search-box">
+                                <input id="keyword" name="keyword" fw-filter="" fw-label="검색어" type="text">
+                                <button class="btn-search"><span class="blind">검색</span></button>
+                            </div>
+                    </fieldset>
+                </form>
+                <a href="" class="btn-cart"><span class="blind">장바구니</span><span class="count">0</span></a>
+            </div>
+            <div class="group-gnb">
+                <div class="gnb-area">
+                    <ul class="gnb-list">
+                        <li class="gnb-item home"> <a href=""> 홈 </a> </li>
+                        <li class="gnb-item"> <a href="">백화점</a> </li>
+                        <li class="gnb-item"> <a href="">뷰티샵</a> </li>
+                        <li class="gnb-item"> <a href="">갤러리아 DEAL</a> </li>
+                        <li class="gnb-item"> <a href="">베스트</a> </li>
+                        <li class="gnb-item"> <a href="">이벤트</a> </li>
+                        <li class="gnb-item"> <a href="">기획전</a> </li>
+                        <li class="gnb-item"> <a href="">고메이494</a> </li>
+                        <li class="gnb-item"> <a href="">브랜드</a> </li>
+                        <li class="gnb-item"> <a href="">공식스토어</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section class="sc-slide">
+                <h2 class="blind">슬라이드영역</h2>
+                <div class="swiper slide-bg">
+                    <ul class="swiper-wrapper" id="bannerList2">
+                    </ul>
+                </div>
+                <div class="swiper slide-front">
+                    <ul class="swiper-wrapper" id="bannerList1">
+                    </ul>
+                    <div class="btn-wrap">
+                        <div class="btn-group">
+                            <div class="fraction">99/99</div>
+                            <button class="btn-more"><span class="blind">더보기</span></button>
+                        </div>
+                        <button class="autoplay"><span class="blind">자동재생 정지</span></button>
+                    </div>
+                </div>
+                <div id="popBanner" class="pop-banner">
+                    <ul class="pop-list">
+                    </ul>
+                    <button class="btn-close"><span class="blind">팝업 닫기</span></button>
+                </div>
+            </section>
+            <section class="sc-cate">
+                <h2 class="blind">쇼핑카테고리</h2>
+                <ul class="cate-list">
+                    <li class="cate-item">
+                        <a href="" class="beauty">뷰티샵</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="woman">여성의류</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="man">남성의류</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="pricy">수입/명품</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="food">식품</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="fashion">패션잡화</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="leisure">레저</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="sports">스포츠</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="shoes">패션슈즈</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="baby">유아동 용품</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="kitchen">주방/생활</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="bed">가구/침구</a>
+                    </li>
+                    <li class="cate-item">
+                        <a href="" class="tech">가전</a>
+                    </li>
+                </ul>
+                <a href="" class="link-cash">
+                    갤러리아KB국민카드 5만원 캐시백
+                </a>
+            </section>
+            <section class="sc-recomm shop">
+                <h2 class="title">고객님을 위한 추천상품</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper" id="recommList1">
+                    </ul>
+                </div>
+            </section>
+            <section class="inner sc-realtime">
+                <h2 class="time-title">실시간검색어</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">1</span>
+                                캉골가방
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">2</span>
+                                정장자켓
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">3</span>
+                                슬리퍼
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">4</span>
+                                쿠론
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">5</span>
+                                남성맨투맨
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">6</span>
+                                자전거
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">7</span>
+                                임직원 폴스미스
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">8</span>
+                                크록스
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">9</span>
+                                키즈점퍼
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <span class="number">10</span>
+                                롱원피스
+                                <span class="new">New</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="open-box"><button class="btn-open"><span class="blind">인기검색 순위보기</span></button></div>
+                <!-- <div class="realtime-area">
+                    <p class="time">01월18일 12:00 기준</p>
+                    <ul class="real-list">
+                        <li class="real-item">
+                            <a href="">
+                                <span>1</span>
+                                남성맨투맨
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>2</span>
+                                VOV
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>3</span>
+                                여자 트레이닝복 세트
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>4</span>
+                                미우미우가방
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>5</span>
+                                종합비타민
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>6</span>
+                                크록스본사
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>7</span>
+                                보테가베네타 가방
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>8</span>
+                                골든구스
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>9</span>
+                                여자홈웨어
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="real-item">
+                            <a href="">
+                                <span>10</span>
+                                키즈 맨투맨
+                                <span>New</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+                <button class="btn-more"><span class="blind">실시간 검색순위보기</span></button>
+                <div class="realtime-area">
+                    <p class="time">01월18일 12:00 기준</p>
+                    <ul class="realtime-list">
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>1</span>
+                                남성맨투맨
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>2</span>
+                                VOV
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>3</span>
+                                여자 트레이닝복 세트
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>4</span>
+                                미우미우가방
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>5</span>
+                                종합비타민
+                                <span>New</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="realtime-list">
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>6</span>
+                                크록스본사
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>7</span>
+                                보테가베네타 가방
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>8</span>
+                                골든구스
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>9</span>
+                                여자홈웨어
+                                <span>New</span>
+                            </a>
+                        </li>
+                        <li class="realtime-item">
+                            <a href="">
+                                <span>10</span>
+                                키즈 맨투맨
+                                <span>New</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-banner">
+                <h2 class="blind">슬라이드배너영역</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href=""><img src="./assets/images/banner1.jpg" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="./assets/images/banner2.jpg" alt=""></a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href=""><img src="./assets/images/banner3.jpg" alt=""></a>
+                        </li>
+                    </ul>
+                    <div class="btn-wrap">
+                        <div class="fraction">99/99</div>
+                        <button class="btn-nav autoplay"><span class="blind">자동재생 정지</span></button>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-deal">
+                <div class="inner">
+                    <h2 class="title">galleria Deal</h2>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper" id="dealList1">
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+                <a href="" class="link-all">전체보기</a>
+            </section>
+            <section class="sc-new shop">
+                <h2 class="title">금주의 신상품</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper" id="newList1">
+                    </ul>
+                </div>
+            </section>
+            <section class="inner sc-focus">
+                <h2 class="title">BRAND FOCUS</h2>
+                <div class="focus-group">
+                    <a href="#fashion" class="active">FASHION</a>
+                    <a href="#bag">BAG & SHOES</a>
+                    <a href="#life">LIFE</a>
+                    <a href="#food">FOOD</a>
+                </div>
+                <div class="focus-fashion active" id="fashion">
+                    <h3 class="blind">fashion</h3>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                   
+                                    <div class="img-wrap">
+                                         <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                        <img src="./assets/images/focus-fashion.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <a href="">
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-1.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-2.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                        <img src="./assets/images/focus-fashion-3.jpg" alt="">
+                                    </div>
+                                    <ul class="detail-list">
+                                        <a href="">
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-4.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-5.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/focus-fashion-7.jpg" alt="">
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </div>
+                                    <ul class="detail-list">
+                                        <a href="">
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-6.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                            <li class="detail-item">
+                                                <img src="./assets/images/focus-fashion-8.jpg" alt="">
+                                                <div class="txt-box">
+                                                    <strong>Overfit V-neck wool knit - navy</strong>
+                                                    <span class="cost">67,230</span>
+                                                    <span>원</span>
+                                                </div>
+                                            </li>
+                                        </a>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+                <div class="focus-bag" id="bag">
+                    <h3 class="blind">BAG & SHOES</h3>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap">
+                                        <img src="./assets/images/bag1.jpg" alt="">
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag3.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/bag4.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag5.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag6.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/bag1.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/bag3.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+                <div class="focus-life" id="life">
+                    <h3 class="blind">life</h3>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/life1.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life1-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life1-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/life2.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life2-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life2-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/life1.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life1-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/life1-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+                <div class="focus-food" id="food">
+                    <h3 class="blind">food</h3>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/food1.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food1-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food1-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/food2.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food2-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food2-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <div class="img-wrap"><img src="./assets/images/food1.jpg" alt=""></div>
+                                    <ul class="detail-list">
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food1-1.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>
+                                        <li class="detail-item">
+                                            <img src="./assets/images/food1-2.jpg" alt="">
+                                            <div class="txt-box">
+                                                <strong>Overfit V-neck wool knit - navy</strong>
+                                                <span class="cost">67,230</span>
+                                                <span>원</span>
+                                            </div>
+                                        </li>       
+                                        <button class="btn-heart"><span class="blind">관심상품 추가하기</span></button>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="pagination"></div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="sc-hour shop">
+                <h2 class="title">최근 1시간 동안 많이 팔린 상품</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper" id="hourList1">
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-wish shop">
+                <h2 class="title">위시리스트 인기상품</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper" id="wishList1">
+                        
+                    </ul>
+                </div>
+            </section>
+            <section class="sc-video">
+                <h2 class="title">Galleria LIVE</h2>
+                <div class="video-area">
+                    <a href="" class="video-play">
+                        <button class="btn-video">
+                            <img src="./assets/images/video2.jpg" alt="">
+                            <div class="play"><span class="blind">비디오 재생</span></div>
+                        </button>
+                        <div class="iframe">
+                            <iframe class="vpYoutube" data-vpid="usH2sD3qU2w" id="usH2sD3qU2w" wmode="transparent" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="ROUGE COCO BAUME - CHANEL Beauty" width="100%" height="424" src="https://www.youtube.com/embed/usH2sD3qU2w?rel=0&amp;wmode=transparent&amp;modestbranding=1&amp;showinfo=0&amp;controls=0&amp;autohide=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fmobile.galleria.co.kr&amp;widgetid=1" data-gtm-yt-inspected-9="true"></iframe>
+                        </div>
+                    </a>
+                    <div class="video-group">
+                        <a href="" class="link-shop">
+                            <img src="./assets/images/video2-1.jpg" alt="">
+                            <div class="txt-box">
+                                <strong class="shop-title">록시땅</strong>
+                                <p class="desc">록시땅 [기프트] 시어 핸드 크림 150ml 듀오 세트</p>
+                                <div class="price">
+                                    <span class="cost">70,200</span>
+                                    <span>원</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="link-shop">
+                            <img src="./assets/images/video2-1.jpg" alt="">
+                            <div class="txt-box">
+                                <strong class="shop-title">록시땅</strong>
+                                <p class="desc">록시땅 [기프트] 시어 바디 듀오 세트 (샤워 크림 + 바디 로션)</p>
+                                <div class="price">
+                                    <span class="cost">65,700</span>
+                                    <span>원</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="video-area">
+                    <a href="" class="video-play">
+                        <button class="btn-video">
+                            <img src="./assets/images/video1.jpg" alt="">
+                        <div class="play"><span class="blind">비디오 재생</span></div>
+                        </button>
+                        <div class="iframe">
+                            <iframe class="vpYoutube" data-vpid="usH2sD3qU2w" id="usH2sD3qU2w" wmode="transparent" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="ROUGE COCO BAUME - CHANEL Beauty" width="100%" height="424" src="https://www.youtube.com/embed/usH2sD3qU2w?rel=0&amp;wmode=transparent&amp;modestbranding=1&amp;showinfo=0&amp;controls=0&amp;autohide=1&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fmobile.galleria.co.kr&amp;widgetid=1" data-gtm-yt-inspected-9="true"></iframe>
+                        </div>
+                    </a>
+                    <div class="video-group">
+                        <a href="" class="link-shop">
+                            <img src="./assets/images/video1-1.jpg" alt="">
+                            <div class="txt-box">
+                                <strong class="shop-title">록시땅</strong>
+                                <p class="desc">록시땅 [기프트] 시어 핸드 크림 150ml 듀오 세트</p>
+                                <div class="price">
+                                    <span class="cost">70,200</span>
+                                    <span>원</span>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="" class="link-shop">
+                            <img src="./assets/images/video1-1.jpg" alt="">
+                            <div class="txt-box">
+                                <strong class="shop-title">록시땅</strong>
+                                <p class="desc">록시땅 [기프트] 시어 바디 듀오 세트 (샤워 크림 + 바디 로션)</p>
+                                <div class="price">
+                                    <span class="cost">65,700</span>
+                                    <span>원</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <a href="" class="link-all">전체보기</a>
+            </section>
+            <section class="sc-exhibit">
+                <h2 class="title">금주의 추천기획전</h2>
+                <div class="exhibit-area">
+                    <div class="exhibit-top">
+                        <img src="./assets/images/ex1.jpg" alt="">
+                        <div class="txt-box">
+                            <strong class="subject">유기그릇으로 소담하게 담아내다</strong>
+                            <p class="desc">오부자유기 / 놋향 / 한국유기 外 ~</p>
+                        </div>
+                    </div>
+                    <div class="inner exhibit-slide">
+                        <div class="swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex1-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex1-2.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex1-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex1-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex1-2.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="exhibit-area">
+                    <div class="exhibit-top">
+                        <img src="./assets/images/ex2.jpg" alt="">
+                        <div class="txt-box">
+                            <strong class="subject">겨울바다 낚시대전 !</strong>
+                            <p class="desc">대어를 낚을 수 있는 아이템 추천 🐟</p>
+                        </div>
+                    </div>
+                    <div class="inner exhibit-slide">
+                        <div class="swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex2-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">바낙스 레전드 나노 기 2-530 갯바위릴대</em>
+                                            <div class="price">
+                                                <span class="cost">689,670</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex2-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">바낙스 슈퍼 레이온 2 블루 3-530 갯바위릴대</em>
+                                            <div class="price">
+                                                <span class="cost">206,900</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex2-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex2-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex2-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="exhibit-area">
+                    <div class="exhibit-top">
+                        <img src="./assets/images/ex3.jpg" alt="">
+                        <div class="txt-box">
+                            <strong class="subject">소파맛집 우아미가구</strong>
+                            <p class="desc">다양한 컬러와 디자인의 소파를 만나보세요!</p>
+                        </div>
+                    </div>
+                    <div class="inner exhibit-slide">
+                        <div class="swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex3-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[착불]우아미가구 로즈번 4인 카우치 무빙헤드 가죽소파 2color</em>
+                                            <div class="price">
+                                                <span class="cost">539,100</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex3-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[착불]우아미가구 디아망 6인 코너형 카우치 아쿠아텍스 소파 2color</em>
+                                            <div class="price">
+                                                <span class="cost">844,050</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex3-2.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex3-2.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex3-2.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>             
+                <div class="exhibit-area">
+                    <div class="exhibit-top">
+                        <img src="./assets/images/ex4.jpg" alt="">
+                        <div class="txt-box">
+                            <strong class="subject">MOLESKINE</strong>
+                            <p class="desc">페이지에 담아내는 이야기와 스케치</p>
+                        </div>
+                    </div>
+                    <div class="inner exhibit-slide">
+                        <div class="swiper">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex4-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">★★무료각인★★[몰스킨/한정판]바비-룰드-도트/라지</em>
+                                            <div class="price">
+                                                <span class="cost">35,640</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex4-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">★★무료각인★★[몰스킨/한정판]바비-룰드-도트/라지</em>
+                                            <div class="price">
+                                                <span class="cost">35,640</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex4-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex4-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="" class="link-exhibit">
+                                        <img src="./assets/images/ex4-1.jpg" alt="">
+                                        <div class="txt-box">
+                                            <em class="tit">[오부자유기] 찬기3호 14cm</em>
+                                            <div class="price">
+                                                <span class="cost">47,880</span>
+                                                <span>원</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="link-all">전체보기</a>
+            </section>
+            <section class="inner sc-premium">
+                <h2 class="title">프리미엄 식품관, 고메이494</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/pre1.jpg" alt="">
+                                <div class="txt-box">
+                                    <strong class="subject">Good Morning Cereals</strong>
+                                    <p class="desc">균형 잡힌 영양으로 든든한 한 끼 완성!</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/pre2.jpg" alt="">
+                                <div class="txt-box">
+                                    <strong class="subject">근사한 홈스토랑</strong>
+                                    <p class="desc">#크림#바질#토마토#피클#트러플</p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/pre3.jpg" alt="">
+                                <div class="txt-box">
+                                    <strong class="subject">톡톡, 맛있음에 빠지는 그 '맛'</strong>
+                                    <p class="desc">#시즈닝#조미료#향신료#요리비결#맛있는시간</p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="pagination"></div>
+                </div>
+            </section>
+            <section class="sc-popular shop">
+                <h2 class="title">주간 인기상품</h2>
+                <div class="swiper">
+                    <ul class="swiper-wrapper" id="weekList1">
+                        
+                    </ul>
+                </div>
+                <a href="" class="link-all">전체보기</a>
+            </section>
+            <section class="sc-hot">
+                <h2 class="title">NEW & HOT</h2>
+                <div class="hot-area">
+                    <a href="" class="link-bg"><img src="./assets/images/h1.jpg" alt="" class="bg-img"></a>
+                    <h3 class="blind">애플</h3>
+                    <div class="swiper iphone">
+                       <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h1-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h1-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">429,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h1-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h1-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h1-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+                    <a class="info">
+                        <strong class="tit">애플</strong>
+                        <p class="desc">애플은 미국 캘리포니아의 아이폰, 아이패드, 애플 워치, 에어팟, 아이맥, 맥북, 맥 스튜디오와 맥 프로, 홈팟 등의 하드웨어와 iOS, iPadOS, macOS 등의 소프트웨어를 설계, 디자인하는 브랜드.</p>
+                    </a>
+                </div>
+                <div class="hot-area">
+                    <h3 class="blind">이솝</h3>
+                    <a href="" class="link-bg"><img src="./assets/images/h2.jpg" alt="" class="bg-img"></a>
+                    <div class="swiper">
+                       <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h2-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">37,050</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h2-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">137,750</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h2-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h2-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h2-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+                    <a class="info">
+                        <strong class="tit">이솝</strong>
+                        <p class="desc"> 이솝은 1987년 호주 멜버른에 설립된 이래, 최상의 스킨/헤어/바디 제품을 만들기 위한 우리의 신념을 흔들림 없이 지켜왔습니다.</p>
+                    </a>
+                </div>
+                <div class="hot-area">
+                    <h3 class="blind">정관장</h3>
+                    <a href="" class="link-bg"><img src="./assets/images/h3.jpg" alt="" class="bg-img"></a>
+                    <div class="swiper">
+                       <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h3-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">338,400</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h3-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">429,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h3-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h3-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h3-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+                    <a class="info">
+                        <strong class="tit">정관장</strong>
+                        <p class="desc">세계인의 건강을 위한 120여년의 철학, 대한민국 대표 홍삼브랜드</p>
+                    </a>
+                </div>
+                <div class="hot-area">
+                    <h3 class="blind">MLB</h3>
+                    <a href="" class="link-bg"><img src="./assets/images/h4.jpg" alt="" class="bg-img"></a>
+                    <div class="swiper">
+                       <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h4-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h4-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">429,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h4-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h4-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide">
+                            <a href="">
+                                <img src="./assets/images/h4-1.jpg" alt="">
+                                <div class="txt-box">
+                                    <span class="cost">1,250,000</span>
+                                    <span>원</span>
+                                </div>
+                            </a>
+                        </li>
+                       </ul>
+                    </div>
+                    <a class="info">
+                        <strong class="tit">MLB</strong>
+                        <p class="desc">Young Generation의 패션 아이콘. 스트릿 캐주얼 브랜드 MLB</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+        <footer class="inner footer"> 
+            <ul class="footer-list">
+                <h3 class="blind">갤러리아몰 소개 리스트</h3>
+                <li class="footer-item">
+                    <a href="">회사소개</a>
+                </li>
+                <li class="footer-item">
+                    <a href="">공지사항</a>
+                </li>
+                <li class="footer-item">
+                    <a href="">입점안내</a>
+                </li>
+                <li class="footer-item">
+                    <a href="">APP 설치</a>
+                </li>
+            </ul>
+            <div class="ft-info">
+                <strong class="tit">한화솔루션 갤러리아 부문</strong>
+                <p class="addr">
+                    <span>대표이사 : 이구영, 김은수, 남이현, 김동관</span>
+                    <span>서울특별시 영등포구 63로 50, 별관 2층  <em>(여의도동, 63한화생명빌딩)</em></span>
+                    <span>한화솔루션(주) 갤러리아 사업장 사업자등록번호 134-85-60007</span>
+                    <span>E-mail : <a href="mailTo:igalleria@hanwha.com">igalleria@hanwha.com</a>고객센터 <a href="tel:1588-0121"> 1588-0121 </a> </span>								
+                </p>
+            </div>
+            <div class="ft-info">
+                <strong class="tit">한화솔루션(주)</strong>
+                <address>
+                    <span>서울특별시 중구 청계천로 86 (장교동)</span>
+                    <span>사업자등록번호 : 202-81-16577 <a href="">사업자정보확인</a></span>
+                    <span>통신판매업신고 : 2021-서울중구-0769</span>
+                </address>
+                <span>호스팅서비스사업자 : 한화 시스템</span>
+            </div>
+            <div class="ft-policy">
+                <a href="">이용약관</a>
+                <a href="" class="private">개인정보처리방침</a>
+                <a href="">청소년보호정책</a>
+            </div>
+            <p class="copy">ⓒ 2021. Hanwha Solutions Galleria Division All rights reserved.</p>
+            <div class="ft-sns">
+                <h3 class="blind">sns바로가기</h3>
+                <a href="" class="face"><span class="blind">페이스북</span></a>
+                <a href="" class="insta"><span class="blind">인스타그램</span></a>
+                <a href="" class="kakao"><span class="blind">카카오톡</span></a>
+            </div>
+        </footer>
+        <div class="bottom-area">
+            <nav class="bottom-util">
+                <div class="util-wrap">
+                    <a href="" class="home"><span class="blind">홈화면 바로가기</span></a>
+                    <a href="" class="menu"><span class="blind">메뉴열기</span></a>
+                    <a href="" class="mypage"><span class="blind">마이페이지</span></a>
+                    <a href="" class="ship"><span class="blind">주문/배송조회 이동</span></a>
+                    <a href="" class="recent"><span class="blind">최근본상품</span></a>
+                </div> 
+            </nav>
+            <div class="bottom-menu">
+                <h2 class="blind">사이드 카테고리</h2>
+                <a href="" class="link-login">
+                    <b>로그인</b>하세요
+                </a>
+                <div class="sign-in">
+                    <p class="desc">갤러리아몰 회원만의 다양한 혜택을 받으세요</p>
+                    <a href="">회원가입<span></span></a>
+                </div>
+                <div class="menu-snb">
+                    <ul class="snb-list">
+                        <li class="snb-item">
+                            <a href="" class="mall">백화점</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="beauty">뷰티샵</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="gome">고메이494</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="brand">브랜드</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="store">공식스토어</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="deal">갤러리아 DEAL</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="best">베스트셀러</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="shop">쇼핑기획전</a>
+                        </li>
+                        <li class="snb-item">
+                            <a href="" class="event">이벤트</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="menu-cate">
+                    <h3 class="title">카테고리</h3>
+                    <div class="cate-subject">
+                        <button class="btn-cate">갤러리아몰</button>
+                        <button class="btn-cate">백화점</button>
+                        <button class="btn-cate">뷰티샵</button>
+                        <button class="btn-cate">고메이494</button>
+                    </div>
+                    <div class="cate-group">
+                        <div class="galleria">
+                            <ul class="galleria-list">
+                                <li class="galleria-item">
+                                    <a href="">
+                                        패션
+                                        <ul class="sub-list">
+                                           <li>여성</li>
+                                           <li>남성</li>
+                                           <li>캐주얼</li>
+                                           <li>스트리트 캐주얼</li>
+                                           <li>언더웨어</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        스포츠
+                                        <ul class="sub-list">
+                                           <li>스포츠</li>
+                                           <li>레저</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        잡화
+                                        <ul class="sub-list">
+                                           <li>가방/지갑/시즌</li>
+                                           <li>패션슈즈</li>
+                                           <li>주얼리/ACC/시계</li>
+                                           <li>명품/수입의류</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        뷰티
+                                        <ul class="sub-list">
+                                           <li>여성</li>
+                                           <li>남성</li>
+                                           <li>캐주얼</li>
+                                           <li>스트리트 캐주얼</li>
+                                           <li>언더웨어</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        유아동
+                                        <ul class="sub-list">
+                                           <li>여성</li>
+                                           <li>남성</li>
+                                           <li>캐주얼</li>
+                                           <li>스트리트 캐주얼</li>
+                                           <li>언더웨어</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        홈&디지털
+                                        <ul class="sub-list">
+                                           <li>여성</li>
+                                           <li>남성</li>
+                                           <li>캐주얼</li>
+                                           <li>스트리트 캐주얼</li>
+                                           <li>언더웨어</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                                <li class="galleria-item">
+                                    <a href="">
+                                        식품
+                                        <ul class="sub-list">
+                                           <li>여성</li>
+                                           <li>남성</li>
+                                           <li>캐주얼</li>
+                                           <li>스트리트 캐주얼</li>
+                                           <li>언더웨어</li>
+                                        </ul>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="store">
+                            <ul class="store-list">
+                                <li class="store-item">
+                                    <a href="">여성캐주얼</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">여성캐릭터/컨템포러리</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">언더웨어</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">남성</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">캐주얼</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">스포츠</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">레저</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">슈즈</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="beauty">
+                            <ul class="store-list">
+                                <li class="store-item">
+                                    <a href="">SKIN CARE</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">MAKE UP</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">MEN</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">BODY</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">HAIR</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">MOM & BABY</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">PERFUME</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">VALUE SET</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">GIFTS</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="gomei">
+                            <ul class="store-list">
+                                <li class="store-item">
+                                    <a href="">여성캐주얼</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">여성캐릭터/컨템포러리</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">언더웨어</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">남성</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">캐주얼</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">스포츠</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">레저</a>
+                                </li>
+                                <li class="store-item">
+                                    <a href="">슈즈</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-brand">
+                    <h3 class="title">브랜드</h3>
+                    <div class="swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="">
+                                    <img src="" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="" class="link-search"><span>브랜드 검색</span></a>
+                </div>
+                <div class="menu-service">
+                    <h3 class="title">서비스 바로가기</h3>
+                    <div class="service-link">
+                        <a href="">갤러리아 LIVE</a>
+                        <a href="">On the Floor</a>
+                        <a href="">PICK-UP@STORE</a>
+                    </div>
+                </div>
+                <div class="menu-app">
+                   <h3 class="title">패밀리 앱</h3>
+                   <a href=""><img src="" alt="">갤러리아</a>
+                   <a href=""><img src="" alt="">갤러리아<br>모바일 상품권</a>
+                </div>
+                <div class="menu-bottom">
+                    <a href="" class="cms"><span>고객센터</span></a>
+                    <a href="" class="login"><span>로그인</span></a>
+                    <a href="" class="down"><span>앱다운로드</span></a>
+                </div>
+            </div>
+        </div>
+        <aside class="fix-top">
+            <button href="" class="btn-top">TOP<span class="blind">페이지 상단으로 이동</span></button>
+        </aside>
+
+</body>
+</html>
