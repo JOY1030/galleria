@@ -218,7 +218,7 @@
     width: 17px;
     height: 17px;
     margin: auto;
-    background: url(/assets/images/icon.png) no-repeat -35px -144px;
+    background: url(./assets/images/icon.png) no-repeat -35px -144px;
     background-size: 107px 168px;
  }
  .sc-cate{
