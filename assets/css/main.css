@@ -425,14 +425,14 @@
     line-height: 20px;
     box-sizing: border-box;
 }
-.sc-realtime .swiper-wrapper>a{
+.sc-realtime .swiper-slide>a{
     display: flex;
     padding-left: 8px;
     font-weight: bold;
     font-size: 18px;
     width: 100%;
 }
-.sc-realtime .swiper-wrapper>a .number{
+.sc-realtime .swiper-slide>a .number{
     font-weight: lighter;
     padding-right: 10px;
 }
