@@ -444,7 +444,7 @@
     height: 52px;
 }
 .sc-realtime .realtime-area{
-    /* display: none; */
+    display: none;
 }
 .sc-realtime .swiper{
     line-height: 52px;
