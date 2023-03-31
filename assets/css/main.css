@@ -318,12 +318,12 @@
  .shop{
     background: #fff;
     margin-top: 8px;
-   padding: 0 16px 35px;
    overflow: hidden;
  }
 
  .shop .swiper{
     overflow: visible;
+    padding: 0 16px 35px;
  }
  .shop .swiper-slide{
     width: 43%;

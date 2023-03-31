@@ -173,14 +173,13 @@ $(function(){
 
 
     // 공통 슬라이드
-    var shopSlider = new Swiper(".shop .swiper", {
+    var shopSlide = new Swiper(".shop .swiper", {
         slidesPerView: 'auto',
         spaceBetween: 10,
-        grabCursor: true,
       });
 
     //  새로 슬라이드
-    var swiper = new Swiper(".sc-realtime .swiper", {
+    var verticalSlide = new Swiper(".sc-realtime .swiper", {
         direction:"vertical",
         loop:true,
          autoplay: {
@@ -191,7 +190,7 @@ $(function(){
 
     //   배너 슬라이드
 
-    var swiper = new Swiper(".sc-banner .swiper", {
+    var swiperBanner = new Swiper(".sc-banner .swiper", {
          
         autoplay: {
           delay: 2000,
@@ -279,9 +278,7 @@ $(function(){
 
 
     // deal 슬라이드 
-    var swiper = new Swiper(".sc-deal .swiper", {
-        spaceBetween:16,
-        grabCursor: true,
+    var swiperDeal = new Swiper(".sc-deal .swiper", {
         pagination: {
             el: ".pagination",
             clickable: true,
@@ -290,10 +287,9 @@ $(function(){
 
     //   focus 슬라이드
 
-      var swiper = new Swiper(".sc-focus .swiper", {
+      var swiperFocus = new Swiper(".sc-focus .swiper", {
         slidesPerView: 1.3,
-        spaceBetween:16,
-        grabCursor: true,
+        spaceBetween: 16,
         pagination: {
             el: ".pagination",
             clickable: true,
@@ -318,17 +314,15 @@ $(function(){
 
   
     // 금주의 추천기획 slide
-    var swiper = new Swiper(".sc-exhibit .swiper", {
+    var swiperExhibit = new Swiper(".sc-exhibit .swiper", {
         slidesPerView: 'auto',
         spaceBetween: 10,
-        grabCursor: true,
       });
       
       // premium slide
-      var swiper = new Swiper(".sc-premium .swiper", {
+      var swiperPremium = new Swiper(".sc-premium .swiper", {
         slidesPerView: 1.1,
         spaceBetween: 20,
-        grabCursor: true,
         loop: true,
         pagination: {
             el: ".pagination",
@@ -338,11 +332,10 @@ $(function(){
 
        // hot slide
 
-       var swiper = new Swiper(".sc-hot .swiper", {
+       var swiperHot = new Swiper(".sc-hot .swiper", {
         slidesPerView: 'auto',
         centeredSlides: true,
         spaceBetween: 10,
-        grabCursor: true,
         pagination: {
             el: ".pagination",
             clickable: true,
